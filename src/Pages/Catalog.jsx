@@ -1,5 +1,3 @@
-import rose from '../../images/flowers/image_1.jpg';
-
 export const Catalog = () => {
   return (
     <section>
@@ -62,7 +60,7 @@ export const Catalog = () => {
       <h2>Хіт продажів</h2>
       <ul>
         <li>
-          <img src={`${rose}`} alt="" />
+          <img src="./assets/flowers/image1.jpg" alt="" />
         </li>
         <li>
           <img src="" alt="" />
