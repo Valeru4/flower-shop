@@ -1,6 +1,12 @@
-import { List, LogoWrapper, Navigation, Wrapper } from './Header.styled';
+import {
+  List,
+  LogoWrapper,
+  Navigation,
+  TextLogo,
+  TextNavigation,
+  Wrapper,
+} from './Header.styled';
 import logo from '../../images/logo/logo.svg';
-import { NavLink } from 'react-router-dom';
 
 export const Header = () => {
   return (
@@ -8,27 +14,27 @@ export const Header = () => {
       <Wrapper>
         <LogoWrapper to="/">
           <img src={logo} alt="logo" />
-          <p>FLOWERLOVER</p>
+          <TextLogo>FLOWERLOVER</TextLogo>
         </LogoWrapper>
         <Navigation>
           <List>
             <li>
-              <NavLink to="/">Головна </NavLink>
+              <TextNavigation to="/">Головна </TextNavigation>
             </li>
             <li>
-              <NavLink to="/catalog">Каталог</NavLink>
+              <TextNavigation to="/catalog">Каталог</TextNavigation>
             </li>
             <li>
-              <NavLink to="/about">Про нас</NavLink>
+              <TextNavigation to="/about">Про нас</TextNavigation>
             </li>
             <li>
-              <NavLink to="/form">Як замовити</NavLink>
+              <TextNavigation to="/form">Як замовити</TextNavigation>
             </li>
             <li>
-              <NavLink to="/reviews">Відгуки </NavLink>
+              <TextNavigation to="/reviews">Відгуки </TextNavigation>
             </li>
             <li>
-              <NavLink to="/contacts">Контакти</NavLink>
+              <TextNavigation to="/contacts">Контакти</TextNavigation>
             </li>
           </List>
         </Navigation>

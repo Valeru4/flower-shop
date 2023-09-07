@@ -1,10 +1,16 @@
+import { SpanFirst, SpanSecond, Title, Wrapper } from './Hero.styled';
+
 export const Hero = () => {
   return (
     <section>
-      <h1>
-        Неймовірні <span> Букети </span> зі свіжих квітів
-      </h1>
-      <button type="button">ЗАМОВИТИ КВІТИ</button>
+      <Wrapper>
+        <Title>
+          Неймовірні
+          <br />
+          <SpanSecond>БУКЕТИ </SpanSecond>зі свіжих квітів
+        </Title>
+        <button type="button">ЗАМОВИТИ КВІТИ</button>
+      </Wrapper>
       <ul>
         <li>
           <svg>
