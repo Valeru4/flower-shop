@@ -10,7 +10,9 @@ export const Wrapper = styled.div`
 export const TextLogo = styled.p`
   font-family: 'Spline Sans';
   color: #ffffff;
+  font-size: 16px;
 `;
+
 export const Navigation = styled.nav`
   margin-top: 50px;
 `;
@@ -33,4 +35,5 @@ export const LogoWrapper = styled(NavLink)`
 export const TextNavigation = styled(NavLink)`
   font-family: 'Source Sans 3', sans-serif;
   color: #ffffff;
+  font-size: 20px;
 `;
