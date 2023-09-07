@@ -1,15 +1,23 @@
-import { SpanFirst, SpanSecond, Title, Wrapper } from './Hero.styled';
+import {
+  Button,
+  Section,
+  SpanSecond,
+  Text,
+  Title,
+  Wrapper,
+} from './Hero.styled';
 
 export const Hero = () => {
   return (
-    <section>
+    <Section>
       <Wrapper>
         <Title>
           Неймовірні
           <br />
           <SpanSecond>БУКЕТИ </SpanSecond>зі свіжих квітів
         </Title>
-        <button type="button">ЗАМОВИТИ КВІТИ</button>
+        <Text>З Доставкою По Києву Протягом 1 Години</Text>
+        <Button type="button">ЗАМОВИТИ КВІТИ</Button>
       </Wrapper>
       <ul>
         <li>
@@ -31,6 +39,6 @@ export const Hero = () => {
           <p>більше 1000 сортів квітів з усього світу</p>
         </li>
       </ul>
-    </section>
+    </Section>
   );
 };

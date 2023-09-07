@@ -31,6 +31,6 @@ export const LogoWrapper = styled(NavLink)`
 `;
 
 export const TextNavigation = styled(NavLink)`
-  font-family: 'Source Sans 3';
+  font-family: 'Source Sans 3', sans-serif;
   color: #ffffff;
 `;
